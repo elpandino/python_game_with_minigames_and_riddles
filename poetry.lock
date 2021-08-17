@@ -1,0 +1,18 @@
+[[package]]
+name = "getch"
+version = "1.0"
+description = "Does single char input, like C getch/getche"
+category = "main"
+optional = false
+python-versions = "*"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.8"
+content-hash = "30af6b1a163e9eab78ad9677fc5d58e3fa1a1b4b5849b031992f237aa48c6c6e"
+
+[metadata.files]
+getch = [
+    {file = "getch-1.0-python2.tar.gz", hash = "sha256:be451438f7a2b389f96753aea39b6ed2540a390f1b9a12badcbc110cf9a5ce7f"},
+    {file = "getch-1.0.tar.gz", hash = "sha256:a6c22717c10051ce65b8fb7bddb171af705b1175e694a73be956990f6089d8b1"},
+]
