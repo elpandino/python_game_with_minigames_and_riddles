@@ -7,6 +7,8 @@ authors = ["elpandino <<>>"]
 [tool.poetry.dependencies]
 python = "^3.8"
 getch = "^1.0"
+pygame = "^2.0.1"
+freegames = "^2.3.2"
 
 [tool.poetry.dev-dependencies]
 
