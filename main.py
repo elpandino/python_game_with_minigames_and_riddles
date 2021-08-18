@@ -1,5 +1,5 @@
 #https://github.com/elpandino/python_game_with_minigames_and_riddles.git
-#copyright to Andrea Pandolfini and Leonardo Muschietti
+#copyright to Andrea Pandolfini
 import curses
 import random
 import time
@@ -10,7 +10,6 @@ import sqlite3
 import sys
 from copy import deepcopy
 from random import randint
-import sys
 from typing import List, Tuple
 from random import choice
 from turtle import *
@@ -464,7 +463,7 @@ print(" ")
 print(" ")
 print(" ")
 print(" ")
-print("IL NUOVISSIMO GIOCO TARGATO MOSsPANDs, DIRETTAMENTE A CASA VOSTRA SUL VOSTRO COMPUTER")
+print("IL NUOVISSIMO GIOCO TARGATO Pandas, DIRETTAMENTE A CASA VOSTRA SUL VOSTRO COMPUTER")
 print(" ")
 print(" ")
 print(" ")
@@ -2243,7 +2242,7 @@ if  storia=="si":
    hffhhdgffsfsf=input ("Premi invio per continuare la storia...")
    print(" ")
    print(" ")
-   print("Computer : Per prima cosa ti dirò il mio nome : Mark, e si sono il fratello di ELy...")
+   print("Computer : Per prima cosa ti dirò il mio nome : Marc, e si sono il fratello di ELy...")
    print(" ")
    print(" ")
    hffghghdffsfsf=input ("Premi invio per continuare la storia...")
@@ -2259,14 +2258,6 @@ if  storia=="si":
    print(" ")
    print(" ")
    hjcjdjjddjj=input("Premi invio per iniziare a giocare...")
-   print(" ")
-   print(" ")
-   print(" ")
-   print(" ")
-   print(" ")
-   print(" ")
-   print(" ")
-   print(" ")
 else:
   print("Cosa hai detto, ma hai per caso rifiutato la mia offerta di raccontarti la storia... lo ritengo inaccettabile, adesso vado a uccidere subito ely e tu non potrai fare più niente per evitarlo")
   print(" ")
@@ -2278,6 +2269,365 @@ else:
   print(" ")
   print("GAME OVER!!!!!")
   exit()
+score = 0
+
+
+def line_shift(line):
+    global score
+    new_row = []
+    for num_line in line:
+        if num_line != 0:
+            if len(new_row) > 0:
+                if new_row[-1][1] == 0:
+                    if new_row[-1][0] == num_line:
+                        new_row[-1] = [num_line * 2, 1]
+                        score += num_line * 2
+                    else:
+                        new_row.append([num_line, 0])
+                else:
+                    new_row.append([num_line, 0])
+
+            else:
+                new_row.append([num_line, 0])
+
+    # convert in stack
+    stack_row = []
+    for nun in new_row:
+        if nun[0] != 0:
+            stack_row.append(nun[0])
+    size = 4 - len(stack_row)
+    for num_line in range(size):
+        stack_row.append(0)
+    return stack_row
+
+
+def gen_num():
+    num = (random.choices([4, 2], weights=[10, 90]))[0]
+    return num
+
+
+def place_num_on_the_board():
+    place_list = []
+    for i in range(4):
+        for j in range(4):
+            if board[i][j] == 0:
+                place_list.append((i, j))
+    if len(place_list) == 0:
+        print('GAME OVER!!!')
+        exit(0)
+    place = random.choice(place_list)
+    board[place[0]][place[1]] = gen_num()
+
+
+def gen_start_board(size_row=4, size_col=4):
+    board2048 = [[i * 0] * size_row for i in range(size_col)]
+    while True:
+        gen_coordinate_num1 = [random.randint(0, 3), random.randint(0, 3)]
+        gen_coordinate_num2 = [random.randint(0, 3), random.randint(0, 3)]
+        if gen_coordinate_num1 != gen_coordinate_num2:
+            break
+    board2048[gen_coordinate_num1[0]][gen_coordinate_num1[1]] = gen_num()
+    board2048[gen_coordinate_num2[0]][gen_coordinate_num2[1]] = gen_num()
+    return board2048
+
+
+def x_move(move_side):
+    for index, row in enumerate(board):
+        if move_side == 'left':
+            board[index] = line_shift(row)
+        if move_side == 'right':
+            board[index] = line_shift(row[::-1])[::-1]
+
+
+def y_move(move_side):
+    for col_board in range(4):
+        line = []
+        for row_board in range(4):
+            line.append(board[row_board][col_board])
+        if move_side == 'down':
+            line = line_shift(line[::-1])[::-1]
+        if move_side == 'up':
+            line = line_shift(line)
+        for row_board in range(4):
+            board[row_board][col_board] = line[row_board]
+
+
+def print_game_screen():
+    # clear console
+    if platform == 'win32':
+        os.system('cls')
+    else:
+        os.system('clear')
+
+    print(f'{"*" * 5} x - exit, r - restart {"*" * 5}')
+    print('move: left, right, up, down')
+    print(f'Score: {score}')
+    for i in board:
+        print(i)
+
+
+board = gen_start_board()
+while True:
+    print_game_screen()
+    step = input('Enter move: ').lower()
+    tmp_board = [row[:] for row in board]
+    if step in ('right', 'left'):
+        x_move(step)
+    elif step in ('down', 'up'):
+        y_move(step)
+    elif step == 'r':  # restart
+        board = gen_start_board()
+        score = 0
+        continue
+    elif step == 'x':
+        print('You pressed x - exit the game')
+        exit(0)
+    else:
+        continue
+    if tmp_board == board:  # The move did not change the board
+        continue
+    place_num_on_the_board()
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+pjjjkkkkkk=input("Premi invio per continuare...")
+print(" ")
+print(" ")
+print(gino, " : SAI, NON MI SEI MAI PIACIUTO QUEL DI MARC NON E' RIUSCITO NEMMENO A fARTI UN PAIO DI INDOVINELLI, QUANDO ERA CON NOI, TI AVREBBE UCCISO A VISTA")
+print(" ")
+print(" ")
+ujhkhljhkjh=input("Premi invio per continuare...")
+print(" ")
+print(" ")
+print(gino, "SONO STATO IO A TRASFORMARLO E ADESSO FINIRO' DA SOLO CIO' CHE HO INIZIATO ")
+print(" ")
+print(" ")
+yuueuuuuuuuuu=input ("Premi invio per passare all'ultimo indovinello...")
+print(" ")
+print(" ")
+print(gino, "È l’unica via dove ancora nessuno ci ha mai passeggiato. Qual è? (scrivi solo le due parole senza articolo in minuscolo  ")
+if yuueuuuuuuuuu=="via lattea":
+  print(" ")
+  print(" ")
+  print(" TATARATATATARATA")
+  print(" ")
+  print(" TATARATATATARATA")
+  print(" ")
+  print("COMPLIMENTIIIII, HAI VINTO E PERCIO' HAI SALVATO ELY, ADESSO PER PREMIO TI FARO' GIOCARE CON LA TUA AMICA ELY PER QUANTO VORRAI")
+  print(" ")
+  print(" ")
+  ufufufufufufufufuf=input("Premi inio per salvare ELY e giocare con lei...")
+
+else:
+    print(": RISPOSTA SBAGLIATA, quella corretta era 'via lattea' ")
+    print(" ") 
+    print("            GAME OVER!!!!!!!       TI MANCAVA POCO!!!!!!!!!")
+    print(" ")
+    print(" ")
+    print("Premi invio per uscire")
+    print(" ")
+    exit()
+
+class Field:
+    def __init__(self, size):
+        self.size = size
+        self.icons = {
+            0: ' . ',
+            1: ' * ',
+            2: ' # ',
+            3: ' & ',
+        }
+        self.snake_coords = []
+        self._generate_field()
+        self.add_entity()
+
+    def add_entity(self):
+        
+        while(True):
+            i = randint(0, self.size-1)
+            j = randint(0, self.size-1)
+            entity = [i, j]
+            
+            if entity not in self.snake_coords:
+                self.field[i][j] = 3
+                break
+
+    def _generate_field(self):
+        self.field = [[0 for j in range(self.size)] for i in range(self.size)]
+
+    def _clear_field(self):        
+        self.field = [[j if j!= 1 and j!= 2 else 0 for j in i] for i in self.field]
+
+
+    def render(self, screen):
+        size = self.size
+        self._clear_field()
+
+
+        # Render snake on the field
+        for i, j in self.snake_coords:
+            self.field[i][j] = 1
+
+        # Mark head
+        head = self.snake_coords[-1]
+        self.field[head[0]][head[1]] = 2
+
+        for i in range(size):
+            row = ''
+            for j in range(size):
+                row += self.icons[ self.field[i][j] ]
+
+            screen.addstr(i, 0, row)
+
+    def get_entity_pos(self):
+        for i in range(self.size):
+            for j in range(self.size):
+                if self.field[i][j] == 3:
+                    return [i, j]
+
+        return [-1, -1]
+
+
+    def is_snake_eat_entity(self):
+        entity = self.get_entity_pos()
+        head = self.snake_coords[-1]
+        return entity == head
+
+
+class Snake:
+    def __init__(self, name):
+        self.name = name
+        self.direction = curses.KEY_RIGHT
+
+        # Init basic coords
+        self.coords = [[0, 0], [0, 1], [0, 2], [0, 3]]
+        
+    def set_direction(self, ch):
+
+        # Check if wrong direction
+        if ch == curses.KEY_LEFT and self.direction == curses.KEY_RIGHT:
+            return
+        if ch == curses.KEY_RIGHT and self.direction == curses.KEY_LEFT:
+            return
+        if ch == curses.KEY_UP and self.direction == curses.KEY_DOWN:
+            return
+        if ch == curses.KEY_DOWN and self.direction == curses.KEY_UP:
+            return 
+
+        self.direction = ch
+
+    def level_up(self):
+        # get last point direction
+        a = self.coords[0]
+        b = self.coords[1]
+
+        tail = a[:]
+
+        if a[0] < b[0]:
+            tail[0]-=1
+        elif a[1] < b[1]:
+            tail[1]-=1
+        elif a[0] > b[0]:
+            tail[0]+=1
+        elif a[1] > b[1]:
+            tail[1]+=1
+
+        tail = self._check_limit(tail)
+        self.coords.insert(0, tail)
+
+    def is_alive(self):
+        head = self.coords[-1]
+        snake_body = self.coords[:-1]
+        return head not in snake_body
+
+    def _check_limit(self, point):
+        # Check field limit
+        if point[0] > self.field.size-1:
+            point[0] = 0
+        elif point[0] < 0:
+            point[0] = self.field.size-1
+        elif point[1] < 0:
+            point[1] = self.field.size-1
+        elif point[1] > self.field.size-1:
+            point[1] = 0
+
+        return point
+
+    def move(self):
+        # Determine head coords
+        head = self.coords[-1][:]
+
+        # Calc new head coords
+        if self.direction == curses.KEY_UP:
+            head[0]-=1
+        elif self.direction == curses.KEY_DOWN:
+            head[0]+=1
+        elif self.direction == curses.KEY_RIGHT:
+            head[1]+=1
+        elif self.direction == curses.KEY_LEFT:
+            head[1]-=1
+
+        # Check field limit
+        head = self._check_limit(head)
+
+        del(self.coords[0])
+        self.coords.append(head)
+        self.field.snake_coords = self.coords
+
+        if not self.is_alive():
+            sys.exit()
+
+
+        # check if snake eat an entity
+        if self.field.is_snake_eat_entity():
+            curses.beep()
+            self.level_up()
+            self.field.add_entity()
+
+
+
+
+    def set_field(self, field):
+        self.field = field
+
+
+def main(screen):
+    # Configure screen
+    screen.timeout(0)
+
+    # Init snake & field
+    field = Field(10)
+    snake = Snake("Joe")
+    snake.set_field(field)
+
+    while(True):
+        # Get last pressed key
+        ch = screen.getch()
+        if ch != -1:
+            # If some arrows did pressed - change direction
+            snake.set_direction(ch)
+
+        # Move snake
+        snake.move()
+        
+        # Render field
+        field.render(screen)
+        screen.refresh()
+        
+        time.sleep(.4)
+
+if __name__=='__main__':
+    curses.wrapper(main)
+
+
+
+
+
 
 
 
