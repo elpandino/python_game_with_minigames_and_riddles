@@ -1,3 +1,4 @@
 # python_game_with_minigames_and_riddles
 Hi guys, this is a python code with a little story of a man who is tryng to find his friend Ely, who iwas captured by the computer; this code rappresent only the beta of the real programm, because that one will be with a GUI, using pygame, we raccomend to use python 3 for this, for now is in italian, because is the beta, bye.
 Some instruction: you have to install all the library if the python code, or rather curses in windows10 (because in unix system is included) random, time, os, pickle, bisect, sqlite3, sys, deepcopy, randint, list, tuple, choice, *, floor and vector. However the most part of this library is already included in your python.
+# WE HOPE YOU WILL ENJOY THIS CONSOLE-BASED GAME
