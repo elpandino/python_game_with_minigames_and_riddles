@@ -1,5 +1,5 @@
 #https://github.com/elpandino/python_game_with_minigames_and_riddles.git
-#copyright to Andrea Pandolfini
+#Copyright to Andrea Pandolfini and Leonardo Muschietti Aka. @elpandino @ermuschio
 import curses
 import random
 import time
@@ -14,12 +14,15 @@ from typing import List, Tuple
 from random import choice
 from turtle import *
 from freegames import floor, vector
+
 print("copyright to Andrea Pandolfini and Leonardo Muschietti")
 print(" ")
 print(" ")
 print(" ")
-license=input("Ti informiamo che dal momento in cui questo codice è sotto Copiright2021 e Licensa Gnu 3.0 non potrai né copiare esso né spacciarlo come un codice tuo; acconsenti dunque alla policy?      si/no       ")
-if license=="si":
+license = input(
+    "Ti informiamo che dal momento in cui questo codice è sotto Copiright2021 e Licensa Gnu 3.0 non potrai né copiare esso né spacciarlo come un codice tuo; acconsenti dunque alla policy?      si/no       "
+)
+if license == "si":
     print(" ")
     print(" ")
     print(" ")
@@ -38,12 +41,14 @@ if license=="si":
     print("Molto bene, procediamo")
     print(" ")
     print(" ")
-    gfyhguyojuifr=input("Premi invio per iniziare...")
+    gfyhguyojuifr = input("Premi invio per iniziare...")
 else:
     print(" ")
     print(" ")
-    print("Mi dispiace ma ti è stato privato di utilizzare il codice e il gioco, (ricordiamo che OpenSource non è uguale a il codice è mio) grazie e arrivederci; PROCESSO AUTODISTRUZIONE DEL CODICE ATTIVATA                                                                                                                  BOOM")
-    exit() 
+    print(
+        "Mi dispiace ma ti è stato privato di utilizzare il codice e il gioco, (ricordiamo che OpenSource non è uguale a il codice è mio) grazie e arrivederci; PROCESSO AUTODISTRUZIONE DEL CODICE ATTIVATA                                                                                                                  BOOM"
+    )
+    exit()
 print(" ")
 print(" ")
 print(" ")
@@ -233,7 +238,7 @@ print(" ")
 print(" ")
 print(" ")
 print(" ")
-ghjkgyjiwsksghg=input("Premi invio per continuare...")
+ghjkgyjiwsksghg = input("Premi invio per continuare...")
 print(" ")
 print(" ")
 print(" ")
@@ -353,7 +358,7 @@ print(" ")
 print(" ")
 print(" ")
 print(" ")
-ghjkgyujiwsksghg=input("Premi invio per continuare...")
+ghjkgyujiwsksghg = input("Premi invio per continuare...")
 print(" ")
 print(" ")
 print(" ")
@@ -463,7 +468,9 @@ print(" ")
 print(" ")
 print(" ")
 print(" ")
-print("IL NUOVISSIMO GIOCO TARGATO MossPands, DIRETTAMENTE A CASA VOSTRA SUL VOSTRO COMPUTER")
+print(
+    "IL NUOVISSIMO GIOCO TARGATO MossPands, DIRETTAMENTE A CASA VOSTRA SUL VOSTRO COMPUTER"
+)
 print(" ")
 print(" ")
 print(" ")
@@ -473,7 +480,7 @@ print(" ")
 print(" ")
 print(" ")
 print(" ")
-ghjkgyjiwsksghg=input("Premi invio per continuare...")
+ghjkgyjiwsksghg = input("Premi invio per continuare...")
 print(" ")
 print(" ")
 print(" ")
@@ -794,7 +801,7 @@ print(" ")
 print(" ")
 print(" ")
 print(" ")
-hihcf=input("Premi invio per iniziare a giocare...")
+hihcf = input("Premi invio per iniziare a giocare...")
 print(" ")
 print(" ")
 print(" ")
@@ -885,14 +892,16 @@ print(" ")
 print(" ")
 print(" ")
 print(" ")
-print("Tutto nasce quando tu decidi di passare una 'semplice' festa con la tua migliore amica Ely e il tuo amico Paolo, quando all'improvviso...")
+print(
+    "Tutto nacque quando tu decidi di passare una 'semplice' festa con la tua migliore amica Ely e il tuo amico Paolo, quando all'improvviso..."
+)
 print(" ")
 print(" ")
 print(" ")
 print(" ")
 print(" ")
 print(" ")
-zero=input("Premi invio per continuare la storia...")
+zero = input("Premi invio per continuare la storia...")
 print(" ")
 print(" ")
 print(" ")
@@ -917,239 +926,304 @@ print(" ")
 print(" ")
 print(" ")
 print(" ")
-
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
 print(" ")
 #INIZIO GIOCO
-print("                           LO SCHERLOCK HOLMES DEGLI INDOVINELLI                         ")
+print(
+    "                           LO SCHERLOCK HOLMES DEGLI INDOVINELLI                         "
+)
 print(" ")
 print(" ")
-primo=input ("Premi invio per continuare... ")
+primo = input("Premi invio per continuare... ")
 print(" ")
 print(" ")
 print("Computer : Hey non ti avevo visto arrivare, sei nuovo da queste parti?")
 print(" ")
 print(" ")
-secondo=input ("Premi invio per continuare... ")
+secondo = input("Premi invio per continuare... ")
 print(" ")
 print(" ")
-print("Io : si sono arrivat* poco tempo fa, ho solo un'amica, lei si chiama Ely .")
+print(
+    "Io : si sono arrivat* poco tempo fa, ho solo un'amica, lei si chiama Ely ."
+)
 print(" ")
 print(" ")
-re=input ("Premi invio per continuare... ")
+re = input("Premi invio per continuare... ")
 print(" ")
 print(" ")
 print("Computer : Facciamo qualche domanda per conoscerci meglio")
 print(" ")
 print(" ")
-re=input ("Premi invio per continuare... ")
+re = input("Premi invio per continuare... ")
 print(" ")
 print(" ")
 #DOMANDE ALL'UTENTE
-sesso=input("Computer : Sei Maschio o Femmina? m/f/no      ")
+sesso = input("Computer : Sei Maschio o Femmina? m/f/no      ")
 print(" ")
 print(" ")
-bimbo=input("Computer : Come ti chiami? (METTI SOLO IL NOME )       ")
+bimbo = input("Computer : Come ti chiami? (METTI SOLO IL NOME )       ")
 print(" ")
-bimbetto=bimbo.title()
+bimbetto = bimbo.title()
 print(" ")
-if len (bimbetto)>6:
+if len(bimbetto) > 6:
     print("i tuoi genitori potevano farlo più corto?")
     print(" ")
     print("Perciò penso proprio che ti chiamero pinco, o forse no???")
     print("vabbe per rispetto ti chiamero con il tuo vero nome")
-    print(" ")                     
-if bimbo=="pinco":
     print(" ")
-    bimbetto="pinco nei tuoi sogni"
+if bimbo == "pinco":
+    print(" ")
+    bimbetto = "pinco nei tuoi sogni"
     print("seeee, e allora io sono pallino")
-if bimbo=="Gumball":
+if bimbo == "Gumball":
     print(" ")
-    bimebetto="Gumball nei tuoi sogni"
+    bimebetto = "Gumball nei tuoi sogni"
     print("seeee, e allora io sono Darwin")
     print(" ")
-if bimbo=="Finn":
+if bimbo == "Finn":
     print(" ")
-    bimebetto="Finn nei tuoi sogni"
+    bimebetto = "Finn nei tuoi sogni"
     print("seeee, e allora io sono jake")
     print(" ")
-if bimbo=="Moritz":
+if bimbo == "Moritz":
     print(" ")
-    bimebetto="Moritz nei tuoi sogni"
-    print("seeee, e allora io sono Lennard") 
+    bimebetto = "Moritz nei tuoi sogni"
+    print("seeee, e allora io sono Lennard")
     print(" ")
-if bimbo=="Jake":
+if bimbo == "Jake":
     print(" ")
-    bimbetto="Jake nei tuoi sogni"
-    print("seeee, e allora io sono Finn") 
+    bimbetto = "Jake nei tuoi sogni"
+    print("seeee, e allora io sono Finn")
     print(" ")
-if bimbo=="Goku":
+if bimbo == "Goku":
     print(" ")
-    bimebetto="Goku nei tuoi sogni"
-    print("seeee, e allora io sono Vegeta") 
+    bimebetto = "Goku nei tuoi sogni"
+    print("seeee, e allora io sono Vegeta")
     print(" ")
-if bimbo=="Franklin":
+if bimbo == "Franklin":
     print(" ")
-    bimebetto="Franklin nei tuoi sogni"
-    print("seeee, e allora io sono Michael") 
+    bimebetto = "Franklin nei tuoi sogni"
+    print("seeee, e allora io sono Michael")
     print(" ")
-if bimbo=="":
+if bimbo == "":
     print(" ")
-    bimebetto="Ulisse nei tuoi sogni"
-    print("seeee, e allora io sono Nessuno") 
-    print(" ")               
+    bimebetto = "Ulisse nei tuoi sogni"
+    print("seeee, e allora io sono Nessuno")
+    print(" ")
     print("ma stai zitto e gioca nulla")
     print(" ")
-if sesso=="m":
-    bimbone=len(bimbetto)+2
+if sesso == "m":
+    bimbone = len(bimbetto) + 2
     print(" ")
     print(" ")
     print("Vabbene signorino, piacere...")
     print(" ")
-    print("╔"+"═"*bimbone+"╗")
+    print("╔" + "═" * bimbone + "╗")
     print("║", bimbetto, "║")
-    print("╚"+"═"*bimbone+"╝")
-elif sesso=="f":
-    bimbone=len(bimbetto)+2
+    print("╚" + "═" * bimbone + "╝")
+elif sesso == "f":
+    bimbone = len(bimbetto) + 2
     print(" ")
     print(" ")
     print("Vabbene signorina, piacere...")
     print(" ")
-    print("♥"+"♥"*bimbone+"♥")
+    print("♥" + "♥" * bimbone + "♥")
     print("♥", bimbetto, "♥")
-    print("♥"+"♥"*bimbone+"♥")
-elif sesso=="no":
-    bimbone=len(bimbetto)+2
+    print("♥" + "♥" * bimbone + "♥")
+elif sesso == "no":
+    bimbone = len(bimbetto) + 2
     print(" ")
     print(" ")
     print("Vabbene personaccia, piacere...")
     print(" ")
-    print("☻"+"☻"*bimbone+"☻")
+    print("☻" + "☻" * bimbone + "☻")
     print("☻", bimbetto, "☻")
-    print("☻"+"☻"*bimbone+"☻")
+    print("☻" + "☻" * bimbone + "☻")
 else:
-    bimbone=len(bimbetto)+2
+    bimbone = len(bimbetto) + 2
     print(" ")
     print(" ")
     print("Vabbene..., piacere...?!")
     print(" ")
-    print("◘"+"◘"*bimbone+"◘")
+    print("◘" + "◘" * bimbone + "◘")
     print("◘", bimbetto, "◘")
-    print("◘"+"◘"*bimbone+"◘")
+    print("◘" + "◘" * bimbone + "◘")
 print(" ")
 print("Computer : che figata di nome : stupendo")
 print(" ")
 print(" ")
-rqe=input("Premi invio per continuare... ")
+rqe = input("Premi invio per continuare... ")
 print(" ")
 print(" ")
-print("Computer : Dunque, tu devi sapere che Ely è scomparsa e l'ultima persona che l'ha vista è Paolo e per raggiungerlo, se vorrai parlarci, dovrai affrontare alcune sfide, create da me.")
+print(
+    "Computer : Dunque, tu devi sapere che Ely è scomparsa e l'ultima persona che l'ha vista è Paolo e per raggiungerlo, se vorrai parlarci, dovrai affrontare alcune sfide, create da me."
+)
 print(" ")
 print(" ")
-rye=input("Premi invio per continuare... ")
+rye = input("Premi invio per continuare... ")
 print(" ")
 print(" ")
 print(bimbetto, " : Aspetta ma perchè fatti da te?  ")
 print(" ")
 print(" ")
-rle=input("Premi invio per continuare... ")
+rle = input("Premi invio per continuare... ")
 print(" ")
 print(" ")
 print("Computer : Okay, mi hai scoperto ,l'ho rapita io............ ")
 print(" ")
 print(" ")
-rre=input("Premi invio per continuare... ")
+rre = input("Premi invio per continuare... ")
 print(" ")
 print(" ")
-print("Computer : Sono gentile, ti farò sentire il suo l'ultimo messaggio vocale, era indirizzato a te... sappi però che ora te la dovrai vedere con me!!!")
+print(
+    "Computer : Sono gentile, ti farò sentire il suo l'ultimo messaggio vocale, era indirizzato a te... sappi però che ora te la dovrai vedere con me!!!"
+)
 print(" ")
 print(" ")
-rhe=input("Premi invio per continuare... ")
+rhe = input("Premi invio per continuare... ")
 print(" ")
 print(" ")
-print("Ely : Non sarò io a guidarti, ma uno dei miei amici, ADDIO, forse un giorno ci rincontreremo.")
+print(
+    "Ely : Non sarò io a guidarti, ma uno dei miei amici, ADDIO, forse un giorno ci rincontreremo."
+)
 print(" ")
 print(" ")
-rse=input("Premi invio per continuare... ")
+rse = input("Premi invio per continuare... ")
 print(" ")
 print(" ")
-gino=input("Scrivi il nome che vorresti che avesse la tua guida :   ")
+gino = input("Scrivi il nome che vorresti che avesse la tua guida :   ")
 print(" ")
-if gino=="Ely":
-  print(" ")
-  print("MI dispiace ma è impossibile")
-  print(" ")
-  print(" ")
-  print("Digita un nome reale...")
-  print(" ")
-  gino=input(" ")
-  print(" ")
+if gino == "Ely":
+    print(" ")
+    print("MI dispiace ma è impossibile")
+    print(" ")
+    print(" ")
+    print("Digita un nome reale...")
+    print(" ")
+    gino = input(" ")
+    print(" ")
 print(" ")
-rdfge=input ("Premi invio per continuare... ")
-print(" ")
-print(" ")
-print(gino, " : Perfetto d'ora in poi non potrai più tirarti indietro, se pensi di non potercela fare chiudi il gioco, non cerchiamo persone deboli...")
+rdfge = input("Premi invio per continuare... ")
 print(" ")
 print(" ")
-rwe=input ("Premi invio per continuare... ")
+print(
+    gino,
+    " : Perfetto d'ora in poi non potrai più tirarti indietro, se pensi di non potercela fare chiudi il gioco, non cerchiamo persone deboli..."
+)
 print(" ")
 print(" ")
-print(gino, " : Via con il primo indovinello, e ricordati che a ogni errore dovrai ricominciare")
+rwe = input("Premi invio per continuare... ")
 print(" ")
 print(" ")
-klre=input ("Premi invio per continuare... ")
+print(
+    gino,
+    " : Via con il primo indovinello, e ricordati che a ogni errore dovrai ricominciare"
+)
 print(" ")
 print(" ")
-sgg=input("Computer : Se la usi ha sei gambe, altrimenti ne ha quattro, che cos'è? (scrivi solo il nome tutto in minuscolo) : ")
+klre = input("Premi invio per continuare... ")
 print(" ")
 print(" ")
-if sgg=="sedia":
+sgg = input(
+    "Computer : Se la usi ha sei gambe, altrimenti ne ha quattro, che cos'è? (scrivi solo il nome tutto in minuscolo) : "
+)
+print(" ")
+print(" ")
+if sgg == "sedia":
     print(gino, " : RISPOSTA CORRETTA, COMPLIMENTI!!! ")
 else:
-    print(gino, " : MI DISPIACE LA RISPOSTA NON E' CORRETTA, la risposta corretta era : 'sedia'")
+    print(
+        gino,
+        " : MI DISPIACE LA RISPOSTA NON E' CORRETTA, la risposta corretta era : 'sedia'"
+    )
     print("                               GAME OVER")
     print(" ")
     print(" ")
-    kqlrre=input ("Premi invio per finire... ")
+    kqlrre = input("Premi invio per finire... ")
     exit()
 print(" ")
 print(" ")
-kqlre=input ("Premi invio per continuare... ")
+kqlre = input("Premi invio per continuare... ")
 print(" ")
 print(" ")
-print(gino, " : Via con il secondo indovinello, altro giro altra corsa................... ")  
+print(
+    gino,
+    " : Via con il secondo indovinello, altro giro altra corsa................... "
+)
 print(" ")
 print(" ")
-klsre=input ("Premi invio per continuare... ")
+klsre = input("Premi invio per continuare... ")
 print(" ")
 print(" ")
-fjyf=input("Computer : Cos'è che è caldo quando è fresco? (scrivi solo il nome in minuscolo) : ")
+fjyf = input(
+    "Computer : Cos'è che è caldo quando è fresco? (scrivi solo il nome in minuscolo) : "
+)
 print(" ")
 print(" ")
-if fjyf=="pane":
+if fjyf == "pane":
     print(gino, "RISPOSTA CORRETTA, COMPLIMENTI!!!")
 else:
-    print(gino, "MI DISPIACE, LA RISPOSTA NON E' CORRETTA, la risposta corretta era : 'pane'")
+    print(
+        gino,
+        "MI DISPIACE, LA RISPOSTA NON E' CORRETTA, la risposta corretta era : 'pane'"
+    )
     print("            GAME OVER")
-    sfd=input ("Premi invio per finire...")
+    sfd = input("Premi invio per finire...")
     exit()
 print(" ")
 print(" ")
-print(gino, " : molto bene, adesso ti aspettera un momento ricreativo, sei pronto?")
+print(gino,
+      " : molto bene, adesso ti aspettera un momento ricreativo, sei pronto?")
 print(" ")
 print(" ")
-fgfgfgfgfgfgfgfgfgfg=input ("Premi invio per continuare...")
+fgfgfgfgfgfgfgfgfgfg = input("Premi invio per continuare...")
 print(" ")
 print(" ")
-print("Computer : solo per te ho trovato questo sudoku, sono sicuro che ti divertirai, sappi però che se non lo finisci rimarrai a questo livello")
+print(
+    "Computer : solo per te ho trovato questo sudoku, sono sicuro che ti divertirai, sappi però che se non lo finisci rimarrai a questo livello"
+)
 print(" ")
 print(" ")
-gigghgh=input ("Premi invio per continuare...")
+gigghgh = input("Premi invio per continuare...")
 print(" ")
 print(" ")
+
+
 #Arkanoid
 class Block(object):
     """Store a single 3x3 block in the complete field."""
-
     def __init__(self):
         self._block = [0, 0, 0, 0, 0, 0, 0, 0, 0]
 
@@ -1170,7 +1244,6 @@ class Block(object):
 
 class Block(object):
     """Store a single 3x3 block in the complete field."""
-
     def __init__(self):
         self._block = [0, 0, 0, 0, 0, 0, 0, 0, 0]
 
@@ -1190,7 +1263,6 @@ class Block(object):
 
 
 class Sudoku(object):
-
     def __init__(self):
         self._field = [Block() for i in range(9)]
         # Cached values used in solve() and populate()
@@ -1320,7 +1392,6 @@ class Sudoku(object):
 
 class CursesUI(object):
     """Command-line 'curses' interface."""
-
     def __init__(self):
         self._screen = curses.initscr()
         self._sudoku = Sudoku()
@@ -1396,8 +1467,8 @@ class CursesUI(object):
                 self._sudoku.populate(n)
                 end = time.time()
                 self._draw_sudoku()
-                self._print_string("Populated with %d fields in %.3f seconds"
-                                   % (n, end - start))
+                self._print_string("Populated with %d fields in %.3f seconds" %
+                                   (n, end - start))
             elif c == 's':
                 if not self._sudoku.solve():
                     self._print_string("Could not solve sudoku")
@@ -1436,30 +1507,38 @@ class CursesUI(object):
 
 
 if __name__ == '__main__':
-     with CursesUI() as ui:
+    with CursesUI() as ui:
         ui.main()
 
 print(" ")
 print(" ")
-domandaovvia=input("Computer : non mi aspettavo che tu fossi così tanto inteligente, comunque ti sei divertito?  si/si  ")
+domandaovvia = input(
+    "Computer : non mi aspettavo che tu fossi così tanto inteligente, comunque ti sei divertito?  si/si  "
+)
 print(" ")
 print(" ")
-print("Computer : sono molto contento, ma adesso ti aspetta il 3 indovinello il quale salirà di difficoltà!!!!")
+print(
+    "Computer : sono molto contento, ma adesso ti aspetta il 3 indovinello il quale salirà di difficoltà!!!!"
+)
 print(" ")
 print(" ")
-h=input("Premi invio per continuare...")
-
+h = input("Premi invio per continuare...")
 
 print(gino, "via con il terzo indovinello, buona fortuna")
 print(" ")
 print(" ")
-ballo=input("Computer : non hanno lancette, ma fanno rumore allo scoccare di ogni ora, cosa sono? (scrivi solo il nome al plurale in minuscolo) :    ")
+ballo = input(
+    "Computer : non hanno lancette, ma fanno rumore allo scoccare di ogni ora, cosa sono? (scrivi solo il nome al plurale in minuscolo) :    "
+)
 print(" ")
 print(" ")
-if ballo =="campane" :
+if ballo == "campane":
     print(gino, "RISPOSTA CORRETTA, COMPLIMENTI!!!")
 else:
-    print(gino, "MI DISPIACE, LA RISPOSTA NON E' CORRETTA, la risposta corretta era : 'campane'")
+    print(
+        gino,
+        "MI DISPIACE, LA RISPOSTA NON E' CORRETTA, la risposta corretta era : 'campane'"
+    )
     print("         GAME OVER")
     exit()
 print(" ")
@@ -1467,186 +1546,218 @@ print(" ")
 print("Computer : okay, siamo solo agli inizi, ci sarà modo di farti perdere")
 print(" ")
 print(" ")
-ghuug=input("Premi invio per continuare...")
+ghuug = input("Premi invio per continuare...")
 print(" ")
 print(" ")
 print(gino, " : Via con il quarto indovinello... ")
 print(" ")
 print(" ")
-jygg0=input("Computer : Si spoglia quando ha freddo, che cos'è? (scrivi solo il nome in minuscolo) : ")
+jygg0 = input(
+    "Computer : Si spoglia quando ha freddo, che cos'è? (scrivi solo il nome in minuscolo) : "
+)
 print(" ")
 print(" ")
-if jygg0=="albero" :
-   print(gino, "RISPOSTA CORRETTA, COMPLIMENTI!!! ")
+if jygg0 == "albero":
+    print(gino, "RISPOSTA CORRETTA, COMPLIMENTI!!! ")
 else:
-   print(gino, "MI DISPIACE, LA RISPOSTA NON E' CORRETTA, la risposta corretta era : 'albero'")
-   print("         GAME OVER")
-   exit()
+    print(
+        gino,
+        "MI DISPIACE, LA RISPOSTA NON E' CORRETTA, la risposta corretta era : 'albero'"
+    )
+    print("         GAME OVER")
+    exit()
 print(" ")
 print(" ")
-uykguhg=input("Premi invio per continuare")
+uykguhg = input("Premi invio per continuare")
 print(" ")
 print(" ")
 db = sqlite3.connect('database.db')
-c=db.cursor()
+c = db.cursor()
 c.execute("CREATE TABLE IF NOT EXISTS data(name TEXT , highscore REAL)")
 db.commit()
 
-def welcome(name,highscore): # Display the welcoming message 
-    print("                    Ciao {} ! \n\n         Benvenuto nei giochi matematici \n\n                    Il tuo punteggio più alto è : {}\n\n____________________________________________________________\n\n".format(name,highscore))
-    input("Premi invio per iniziare")
-    
-def main():
-    print("____________________________________________________________\n\n                         [Giochi Matematici]\n\n____________________________________________________________\n")
-    data=c.execute("SELECT * FROM data")
 
-    # Count the number of the table's rows 
-    x=0
+def welcome(name, highscore):  # Display the welcoming message
+    print(
+        "                    Ciao {} ! \n\n         Benvenuto nei giochi matematici \n\n                    Il tuo punteggio più alto è : {}\n\n____________________________________________________________\n\n"
+        .format(name, highscore))
+    input("Premi invio per iniziare")
+
+
+def main():
+    print(
+        "____________________________________________________________\n\n                         [Giochi Matematici]\n\n____________________________________________________________\n"
+    )
+    data = c.execute("SELECT * FROM data")
+
+    # Count the number of the table's rows
+    x = 0
     for i in data:
-        x=x+1
-        
-    if x==0: # If empty (first run)
+        x = x + 1
+
+    if x == 0:  # If empty (first run)
         # Ask about the user name
-        ask=True
+        ask = True
         while ask:
             try:
-                name=input("Per favore reinserisci il tuo nome : ")
-                if name=="" or len(name)==0:
+                name = input("Per favore reinserisci il tuo nome : ")
+                if name == "" or len(name) == 0:
                     print("Metti un nome valido !")
                 else:
-                    ask=False                
+                    ask = False
             except valueError:
                 print("Please Enter a valid value")
                 askName()
-                
-        print("\n___________________________________________________________\n")
-        c.execute("INSERT INTO data VALUES(?,?)",(name,"0")) # Set the name in database 
-        db.commit()  
-        welcome(name,"0")
-        highscore=0
-        
-    else: # User played before
-        data=c.execute("SELECT * FROM data")
-        for i in data: # Get the name and highscore        
-            name=i[0]
-            highscore=i[1]
-        welcome(name,highscore)
-        
-    score=0
-    lose=False
-    while lose!=True:
-        calc=random.randint(0,1) # Generate a random calculation type 0=[+] 1=[*]
 
-        if calc==0: #(+)
-            fnum=random.randint(2,50) # First number
-            snum=random.randint(2,50) # Second number
-            result=fnum+snum
-            inp="[+] {} + {} = " # User input text
-            
-        else: #(*)
-            fnum=random.randint(1,10)
-            snum=random.randint(1,10)
-            result=fnum * snum
-            inp="[+] {} * {} ="
-            
-        def askUser(): # Ask user what is the result
-                userInput=input(inp.format(fnum,snum))
-                try:
-                    userInput=int(userInput) # Try to make input as int
-                    return userInput
-                except: # If user input a text or leaft it empty
-                    print("Inserisci una risposta valida..")
-                    askUser() # Reask again
-        userInput=askUser()
-        
-        if userInput==result: # Correct answer 
-             score=score+1 
-             if score>highscore: # If this score is the high score 
-                 c.execute("UPDATE data SET highscore =  ? WHERE name = ?",(score,name)) # Change highscore in database
-                 db.commit()
-                 print("Giusto ! , punteggio più alto raggiunto ! il tuo punteggio : {} ".format(score)) # Show message
-             else: # The score is not the highscore
-                 print("Giusto ! il tuo punteggio è di : {}".format(score))
+        print(
+            "\n___________________________________________________________\n")
+        c.execute("INSERT INTO data VALUES(?,?)",
+                  (name, "0"))  # Set the name in database
+        db.commit()
+        welcome(name, "0")
+        highscore = 0
 
-        else: # Wrong answer
-            score=0
+    else:  # User played before
+        data = c.execute("SELECT * FROM data")
+        for i in data:  # Get the name and highscore
+            name = i[0]
+            highscore = i[1]
+        welcome(name, highscore)
+
+    score = 0
+    lose = False
+    while lose != True:
+        calc = random.randint(
+            0, 1)  # Generate a random calculation type 0=[+] 1=[*]
+
+        if calc == 0:  #(+)
+            fnum = random.randint(2, 50)  # First number
+            snum = random.randint(2, 50)  # Second number
+            result = fnum + snum
+            inp = "[+] {} + {} = "  # User input text
+
+        else:  #(*)
+            fnum = random.randint(1, 10)
+            snum = random.randint(1, 10)
+            result = fnum * snum
+            inp = "[+] {} * {} ="
+
+        def askUser():  # Ask user what is the result
+            userInput = input(inp.format(fnum, snum))
+            try:
+                userInput = int(userInput)  # Try to make input as int
+                return userInput
+            except:  # If user input a text or leaft it empty
+                print("Inserisci una risposta valida..")
+                askUser()  # Reask again
+
+        userInput = askUser()
+
+        if userInput == result:  # Correct answer
+            score = score + 1
+            if score > highscore:  # If this score is the high score
+                c.execute("UPDATE data SET highscore =  ? WHERE name = ?",
+                          (score, name))  # Change highscore in database
+                db.commit()
+                print(
+                    "Giusto ! , punteggio più alto raggiunto ! il tuo punteggio : {} "
+                    .format(score))  # Show message
+            else:  # The score is not the highscore
+                print("Giusto ! il tuo punteggio è di : {}".format(score))
+
+        else:  # Wrong answer
+            score = 0
             print("Oops ! Risposta Sbagliata!")
-            userAgain=input("[+] Vuoi giocare di nuovo? (s,n) : ").lower()
-            if userAgain=="n":
+            userAgain = input("[+] Vuoi giocare di nuovo? (s,n) : ").lower()
+            if userAgain == "n":
                 print("alla prossima !")
                 db.close()
-                lose=True
+                lose = True
+
+
 main()
 print(" ")
 print(" ")
-print(gino, " : Ti sei divertito, io si solo a guardarti WuW, comunque adesso rinizia il difficile : mica sei venuto qui per giocare!!!")
+print(
+    gino,
+    " : Ti sei divertito, io si solo a guardarti WuW, comunque adesso rinizia il difficile : mica sei venuto qui per giocare!!!"
+)
 print(" ")
 print(" ")
-hfr=input("Premi invio per continuare...")
+hfr = input("Premi invio per continuare...")
 print(" ")
 print(" ")
-domandaovvissima=input("Computer : sei pronto per il quinto indovinello? si/si ")
+domandaovvissima = input(
+    "Computer : sei pronto per il quinto indovinello? si/si ")
 print(" ")
 print(" ")
 print("Computer : Perfetto!!")
 print(" ")
 print(" ")
-rh=input("Premi invio per continuare...")
+rh = input("Premi invio per continuare...")
 print(" ")
 print(" ")
 print("Computer : Ecco a te il prossimo indovinello")
 print(" ")
 print(" ")
-eh=input("Premi invio per continuare...")
+eh = input("Premi invio per continuare...")
 print(" ")
 print(" ")
-print("Computer : Serve solo quando si getta, cosa è? (scrivi in minuscolo solo il nome) ")
+print(
+    "Computer : Serve solo quando si getta, cosa è? (scrivi in minuscolo solo il nome) "
+)
 print(" ")
 print(" ")
-terza=input("  ")
+terza = input("  ")
 print(" ")
 print(" ")
-if terza=="ancora":
-    print("Computer : molto bene, adesso ti aspetta il sesto indovinello, che sarà molto più difficile.")
+if terza == "ancora":
+    print(
+        "Computer : molto bene, adesso ti aspetta il sesto indovinello, che sarà molto più difficile."
+    )
     print(" ")
-    print(" ") 
-    th=input("Premi invio per continuare...")
     print(" ")
-    print(" ") 
+    th = input("Premi invio per continuare...")
+    print(" ")
+    print(" ")
 else:
     print("Computer : RISPOSTA SBAGLIATA, quella corretta era 'ancora' ")
     print(" ")
-    print(" ") 
+    print(" ")
     print("            GAME OVER!!!!!!!")
     print(" ")
-    print(" ") 
+    print(" ")
     print("Computer : Ritenta e sarai più fortuato")
     print(" ")
-    print(" ") 
-    hthhfv=input("Premi invio per finire...")
+    print(" ")
+    hthhfv = input("Premi invio per finire...")
     exit()
 print(" ")
 print(" ")
-print(gino," : e via con il sesto, so che puoi farcela!!!")
+print(gino, " : e via con il sesto, so che puoi farcela!!!")
 print(" ")
 print(" ")
 print("Premi invio per continuare... ")
 print(" ")
 print(" ")
-terzhh=input("Computer : Una volta scoperto non esiste più. Cos’è? (scrivi in minuscolo e solamente il nome)   ")
+terzhh = input(
+    "Computer : Una volta scoperto non esiste più. Cos’è? (scrivi in minuscolo e solamente il nome)   "
+)
 print(" ")
 print(" ")
-if terzhh=="segreto" :
-    print("Computer : MOLTO BENE, adesso ti aspetta l'ottavo indovinello, che sarà molto più difficile.")
+if terzhh == "segreto":
+    print(
+        "Computer : MOLTO BENE, adesso ti aspetta l'ottavo indovinello, che sarà molto più difficile."
+    )
     print(" ")
-    print(" ") 
-    th=input("Premi invio per continuare...")
     print(" ")
-    print(" ") 
+    th = input("Premi invio per continuare...")
+    print(" ")
+    print(" ")
 else:
     print("Computer : RISPOSTA SBAGLIATA, quella corretta era segreto")
     print(" ")
-    print(" ") 
+    print(" ")
     print("            GAME OVER!!!!!!!")
     print(" ")
     print(" ")
@@ -1657,10 +1768,12 @@ else:
 print(" ")
 print(" ")
 
-print("Visto il tuo impegno costante, adesso ci sarà un piccolo giochino come ricompensa")
+print(
+    "Visto il tuo impegno costante, adesso ci sarà un piccolo giochino come ricompensa"
+)
 print(" ")
 print(" ")
-jhklhkjhkjh=input("Premi invio per iniziare il gioco...")
+jhklhkjhkjh = input("Premi invio per iniziare il gioco...")
 print(" ")
 print(" ")
 # DECLARE ALL THE CONSTANTS
@@ -1668,26 +1781,8 @@ BOARD_SIZE = 20
 # Extra two are for the walls, playing area will have size as BOARD_SIZE
 EFF_BOARD_SIZE = BOARD_SIZE + 2
 
-PIECES = [
-
-    [[1], [1], [1], [1]],
-
-    [[1, 0],
-     [1, 0],
-     [1, 1]],
-
-    [[0, 1],
-     [0, 1],
-     [1, 1]],
-
-    [[0, 1],
-     [1, 1],
-     [1, 0]],
-
-    [[1, 1],
-     [1, 1]]
-
-]
+PIECES = [[[1], [1], [1], [1]], [[1, 0], [1, 0], [1, 1]],
+          [[0, 1], [0, 1], [1, 1]], [[0, 1], [1, 1], [1, 0]], [[1, 1], [1, 1]]]
 
 # Constants for user input
 MOVE_LEFT = 'a'
@@ -1696,6 +1791,7 @@ ROTATE_ANTICLOCKWISE = 'w'
 ROTATE_CLOCKWISE = 's'
 NO_MOVE = 'e'
 QUIT_GAME = 'q'
+
 
 def print_board(board, curr_piece, piece_pos, error_message=''):
     """
@@ -1710,7 +1806,7 @@ def print_board(board, curr_piece, piece_pos, error_message=''):
     Prints out the board, piece and playing instructions to STDOUT
     If there are any error messages then prints them to STDOUT as well
     """
-    os.system('cls' if os.name=='nt' else 'clear')
+    os.system('cls' if os.name == 'nt' else 'clear')
     print("Text mode version of the TETRIS game\n\n")
 
     board_copy = deepcopy(board)
@@ -1718,7 +1814,10 @@ def print_board(board, curr_piece, piece_pos, error_message=''):
     curr_piece_size_y = len(curr_piece[0])
     for i in range(curr_piece_size_x):
         for j in range(curr_piece_size_y):
-            board_copy[piece_pos[0]+i][piece_pos[1]+j] = curr_piece[i][j] | board[piece_pos[0]+i][piece_pos[1]+j]
+            board_copy[piece_pos[0] +
+                       i][piece_pos[1] +
+                          j] = curr_piece[i][j] | board[piece_pos[0] +
+                                                        i][piece_pos[1] + j]
 
     # Print the board to STDOUT
     for i in range(EFF_BOARD_SIZE):
@@ -1739,10 +1838,10 @@ def print_board(board, curr_piece, piece_pos, error_message=''):
     # and he doesn't want to rotate the piece either and just wants to move
     # in the downward direction, he can choose 'f'
     print(" - e (return): just move the piece downwards as is")
-    
+
     if error_message:
         print(error_message)
-    print("Your move:",)
+    print("Your move:", )
 
 
 def init_board():
@@ -1758,9 +1857,9 @@ def init_board():
     for i in range(EFF_BOARD_SIZE):
         board[i][0] = 1
     for i in range(EFF_BOARD_SIZE):
-        board[EFF_BOARD_SIZE-1][i] = 1
+        board[EFF_BOARD_SIZE - 1][i] = 1
     for i in range(EFF_BOARD_SIZE):
-        board[i][EFF_BOARD_SIZE-1] = 1
+        board[i][EFF_BOARD_SIZE - 1] = 1
     return board
 
 
@@ -1791,7 +1890,7 @@ def get_random_position(curr_piece):
     # This x refers to rows, rows go along y-axis
     x = 0
     # This y refers to columns, columns go along x-axis
-    y = random.randrange(1, EFF_BOARD_SIZE-curr_piece_size)
+    y = random.randrange(1, EFF_BOARD_SIZE - curr_piece_size)
     return [x, y]
 
 
@@ -1917,18 +2016,21 @@ def merge_board_and_piece(board, curr_piece, piece_pos):
     curr_piece_size_y = len(curr_piece[0])
     for i in range(curr_piece_size_x):
         for j in range(curr_piece_size_y):
-            board[piece_pos[0]+i][piece_pos[1]+j] = curr_piece[i][j] | board[piece_pos[0]+i][piece_pos[1]+j]
+            board[piece_pos[0] +
+                  i][piece_pos[1] +
+                     j] = curr_piece[i][j] | board[piece_pos[0] +
+                                                   i][piece_pos[1] + j]
 
     # After merging the board and piece
     # If there are rows which are completely filled then remove those rows
 
     # Declare empty row to add later
-    empty_row = [0]*EFF_BOARD_SIZE
+    empty_row = [0] * EFF_BOARD_SIZE
     empty_row[0] = 1
-    empty_row[EFF_BOARD_SIZE-1] = 1
+    empty_row[EFF_BOARD_SIZE - 1] = 1
 
     # Declare a constant row that is completely filled
-    filled_row = [1]*EFF_BOARD_SIZE
+    filled_row = [1] * EFF_BOARD_SIZE
 
     # Count the total filled rows in the board
     filled_rows = 0
@@ -1965,7 +2067,8 @@ def overlap_check(board, curr_piece, piece_pos):
     curr_piece_size_y = len(curr_piece[0])
     for i in range(curr_piece_size_x):
         for j in range(curr_piece_size_y):
-            if board[piece_pos[0]+i][piece_pos[1]+j] == 1 and curr_piece[i][j] == 1:
+            if board[piece_pos[0] + i][piece_pos[1] +
+                                       j] == 1 and curr_piece[i][j] == 1:
                 return False
     return True
 
@@ -2060,7 +2163,6 @@ def can_rotate_clockwise(board, curr_piece, piece_pos):
 
 
 def play_game():
-
     """
     Parameters:
     -----------
@@ -2118,7 +2220,7 @@ def play_game():
                 ERR_MSG = "Cannot rotate clockwise!"
         elif player_move == NO_MOVE:
             do_move_down = True
-                    
+
         else:
             ERR_MSG = "That is not a valid move!"
 
@@ -2140,6 +2242,7 @@ def play_game():
 
     print("GAME OVER!")
 
+
 if __name__ == "__main__":
     play_game()
 print(" ")
@@ -2147,7 +2250,7 @@ print(" ")
 print(" ")
 print(" ")
 print(" ")
-tgtgt=input("Premi invio per continuare...")
+tgtgt = input("Premi invio per continuare...")
 print(" ")
 print(" ")
 print(" ")
@@ -2233,28 +2336,33 @@ print(" ")
 print(" ")
 print(" ")
 print(" ")
-print(gino," : Sappi che d'ora in poi saranno molto difficili, vai e vinci!!!")
+print(gino,
+      " : Sappi che d'ora in poi saranno molto difficili, vai e vinci!!!")
 print(" ")
 print(" ")
 print("Premi invio per continuare... ")
 print(" ")
 print(" ")
-print("Computer : Sa tante cose ma non sa parlare, ha tante ali ma non può volare. Cos’è?  (scrivi in minuscolo e solamente il nome)   ")
+print(
+    "Computer : Sa tante cose ma non sa parlare, ha tante ali ma non può volare. Cos’è?  (scrivi in minuscolo e solamente il nome)   "
+)
 print(" ")
-terzdhdh=input("  ")
+terzdhdh = input("  ")
 print(" ")
 print(" ")
-if terzdhdh=="libro":
-    print("Computer : WOW, sei davvero bravo! Sei sicuro che questa non è la prima volta che ci provi? Comunque COMPLIMENTI.")
+if terzdhdh == "libro":
+    print(
+        "Computer : WOW, sei davvero bravo! Sei sicuro che questa non è la prima volta che ci provi? Comunque COMPLIMENTI."
+    )
     print(" ")
-    print(" ") 
-    th=input("Premi invio per continuare...")
     print(" ")
-    print(" ") 
+    th = input("Premi invio per continuare...")
+    print(" ")
+    print(" ")
 else:
     print("Computer : RISPOSTA SBAGLIATA, quella corretta era 'libro' ")
     print(" ")
-    print(" ") 
+    print(" ")
     print("            GAME OVER!!!!!!!")
     print(" ")
     print(" ")
@@ -2262,28 +2370,33 @@ else:
     print(" ")
     exit()
 
-print(gino," : Sappi che d'ora in poi saranno molto difficili, vai e vinci!!!")
+print(gino,
+      " : Sappi che d'ora in poi saranno molto difficili, vai e vinci!!!")
 print(" ")
 print(" ")
 print("Premi invio per continuare... ")
 print(" ")
 print(" ")
-print("Computer : La mia vita può durare qualche ora, quello che produco mi divora. Sottile sono veloce, grossa sono lenta e il vento molto mi spaventa. Chi sono? (scrivi in minuscolo e solamente il nome e al singolare)   ")
+print(
+    "Computer : La mia vita può durare qualche ora, quello che produco mi divora. Sottile sono veloce, grossa sono lenta e il vento molto mi spaventa. Chi sono? (scrivi in minuscolo e solamente il nome e al singolare)   "
+)
 print(" ")
-tergzhdh=input("  ")
+tergzhdh = input("  ")
 print(" ")
 print(" ")
-if tergzhdh=="candela":
-    print("Computer : MOLTO BENE, adesso ti aspetta il nono indovinello, che sarà molto più difficile.")
+if tergzhdh == "candela":
+    print(
+        "Computer : MOLTO BENE, adesso ti aspetta il nono indovinello, che sarà molto più difficile."
+    )
     print(" ")
-    print(" ") 
-    th=input("Premi invio per continuare...")
     print(" ")
-    print(" ") 
+    th = input("Premi invio per continuare...")
+    print(" ")
+    print(" ")
 else:
     print("Computer : RISPOSTA SBAGLIATA, quella corretta era candela")
     print(" ")
-    print(" ") 
+    print(" ")
     print("            GAME OVER!!!!!!!")
     print(" ")
     print(" ")
@@ -2292,68 +2405,108 @@ else:
     exit()
 print(" ")
 print(" ")
-print(gino, "Ben fatto uomo è così che ti voglio, sinceramente nessuno credeva in te")
+print(
+    gino,
+    "Ben fatto uomo è così che ti voglio, sinceramente nessuno credeva in te")
 print(" ")
 print(" ")
-hfgghfhgfghfghhhhhhhgff=input ("Premi invio per continuare")
+hfgghfhgfghfghhhhhhhgff = input("Premi invio per continuare")
 print(" ")
 print(" ")
-print("Computer : non lasciarti ingannare da qualche insuccesso, è molto facile smarrire la retta via e spesso non ce ne accorgiamo nemmeno quando succede, un tempo successe anche a me...")
+print(
+    "Computer : non lasciarti ingannare da qualche insuccesso, è molto facile smarrire la retta via e spesso non ce ne accorgiamo nemmeno quando succede, un tempo successe anche a me..."
+)
 print(" ")
 print(" ")
-storia=input("Se vuoi sentire la storia di Computer digita : 'si' altrimenti scrivi 'no'...         ")
+storia = input(
+    "Se vuoi sentire la storia di Computer digita : 'si' altrimenti scrivi 'no'...         "
+)
 print(" ")
 print(" ")
-if  storia=="si":
-   print("Computer : Bhe, mi fa piacere raccontare di com'ero un tempo sai, ti assomigliavo quasi, però avevo molti amici che nel tempo iniziarono a separarsi...")
-   print(" ")
-   print(" ")
-   hffhdffffsfsggggf=input ("Premi invio per continuare la storia...")
-   print(" ")
-   print(" ")
-   print("Computer : Dovevo decidere con chi stare e scelsi il gruppo peggiore, quello degli atleti, loro bullizzavano tutta la scuola e poi diventai proprio come loro...")
-   print(" ")
-   print(" ")
-   hffgghdffffsfsf=input ("Premi invio per continuare la storia...")
-   print(" ")
-   print(" ")
-   print("Computer : Dopo molto tempo capii che ormai ero cambiato e tornare indietro più non potevo, decisi di cambiare nome e di mascherarmi... ")
-   print(" ")
-   print(" ")
-   hffhdffffsfgsf=input ("Premi invio per continuare la storia...")
-   print(" ")
-   print(" ")
-   print("Computer : Nonostante ciò sono rimasto com'ero e non so se riuscirò mai a tornare quello di una volta...")
-   print(" ")
-   print(" ")
-   hffhghdffgffsfsf=input ("Premi invio per continuare la storia...")
-   print(" ")
-   print(" ")
-   print("Computer : GRAZIE, mi ha fatto bene parlarne, mi sento libero, perciò ti farò due doni...")
-   print(" ")
-   print(" ")
-   hffhhdgffsfsf=input ("Premi invio per continuare la storia...")
-   print(" ")
-   print(" ")
-   print("Computer : Per prima cosa ti dirò il mio nome : Marc, e si sono il fratello di ELy...")
-   print(" ")
-   print(" ")
-   hffghghdffsfsf=input ("Premi invio per continuare la storia...")
-   print(" ")
-   print(" ")
-   print("Marc : Come ultimo dono ti farò saltare un indovinello, ma il resto dovrai finirlo da solo")
-   print(" ")
-   print(" ")
-   prikhhkk=input("Premi invio per continuare...")
-   print(" ")
-   print(" ")
-   print("Marc : visto che hai appena saltato il nono indovinello, ecco a te un giochino")
-   print(" ")
-   print(" ")
-   hjcjdjjddjj=input("Premi invio per iniziare a giocare...")
-   print(" ")
-   print(" ")
-   def line_shift(line):
+if storia == "no":
+    print(
+        "Cosa hai detto, ma hai per caso rifiutato la mia offerta di raccontarti la storia... lo ritengo inaccettabile, adesso vado a uccidere subito ely e tu non potrai fare più niente per evitarlo"
+    )
+    print(" ")
+    print(" ")
+    print(" ")
+    print(
+        "Ely : ma perche gli hai detto di no, adesso mi ucciderà, sei proprio uno stupido!!!"
+    )
+    print(" ")
+    print(" ")
+    print(" ")
+    print("GAME OVER!!!!!")
+    exit()
+score = 0
+if storia == "si":
+    print(
+        "Computer : Bhe, mi fa piacere raccontare di com'ero un tempo sai, ti assomigliavo quasi, però avevo molti amici che nel tempo iniziarono a separarsi..."
+    )
+    print(" ")
+    print(" ")
+    hffhdffffsfsggggf = input("Premi invio per continuare la storia...")
+    print(" ")
+    print(" ")
+    print(
+        "Computer : Dovevo decidere con chi stare e scelsi il gruppo peggiore, quello degli atleti, loro bullizzavano tutta la scuola e poi diventai proprio come loro..."
+    )
+    print(" ")
+    print(" ")
+    hffgghdffffsfsf = input("Premi invio per continuare la storia...")
+    print(" ")
+    print(" ")
+    print(
+        "Computer : Dopo molto tempo capii che ormai ero cambiato e tornare indietro più non potevo, decisi di cambiare nome e di mascherarmi... "
+    )
+    print(" ")
+    print(" ")
+    hffhdffffsfgsf = input("Premi invio per continuare la storia...")
+    print(" ")
+    print(" ")
+    print(
+        "Computer : Nonostante ciò sono rimasto com'ero e non so se riuscirò mai a tornare quello di una volta..."
+    )
+    print(" ")
+    print(" ")
+    hffhghdffgffsfsf = input("Premi invio per continuare la storia...")
+    print(" ")
+    print(" ")
+    print(
+        "Computer : GRAZIE, mi ha fatto bene parlarne, mi sento libero, perciò ti farò due doni..."
+    )
+    print(" ")
+    print(" ")
+    hffhhdgffsfsf = input("Premi invio per continuare la storia...")
+    print(" ")
+    print(" ")
+    print(
+        "Computer : Per prima cosa ti dirò il mio nome : Marc, e si sono il fratello di ELy..."
+    )
+    print(" ")
+    print(" ")
+    hffghghdffsfsf = input("Premi invio per continuare la storia...")
+    print(" ")
+    print(" ")
+    print(
+        "Marc : Come ultimo dono ti farò saltare un indovinello, ma il resto dovrai finirlo da solo"
+    )
+    print(" ")
+    print(" ")
+    prikhhkk = input("Premi invio per continuare...")
+    print(" ")
+    print(" ")
+    print(
+        "Marc : visto che hai appena saltato il nono indovinello, ecco a te un giochino"
+    )
+    print(" ")
+    print(" ")
+    hjcjdjjddjj = input("Premi invio per iniziare a giocare...")
+    print(" ")
+    print(" ")
+
+
+def line_shift(line):
     global score
     new_row = []
     for num_line in line:
@@ -2476,43 +2629,56 @@ print(" ")
 print(" ")
 print(" ")
 print(" ")
-pjjjkkkkkk=input("Premi invio per continuare...")
+pjjjkkkkkk = input("Premi invio per continuare...")
 print(" ")
 print(" ")
-print(gino, " : SAI, NON MI SEI MAI PIACIUTO QUEL DI MARC NON E' RIUSCITO NEMMENO A fARTI UN PAIO DI INDOVINELLI, QUANDO ERA CON NOI, TI AVREBBE UCCISO A VISTA")
+print(
+    gino,
+    " : SAI, NON MI SEI MAI PIACIUTO QUEL DI MARC NON E' RIUSCITO NEMMENO A fARTI UN PAIO DI INDOVINELLI, QUANDO ERA CON NOI, TI AVREBBE UCCISO A VISTA"
+)
 print(" ")
 print(" ")
-ujhkhljhkjh=input("Premi invio per continuare...")
+ujhkhljhkjh = input("Premi invio per continuare...")
 print(" ")
 print(" ")
-print(gino, "SONO STATO IO A TRASFORMARLO E ADESSO FINIRO' DA SOLO CIO' CHE HO INIZIATO ")
+print(
+    gino,
+    "SONO STATO IO A TRASFORMARLO E ADESSO FINIRO' DA SOLO CIO' CHE HO INIZIATO "
+)
 print(" ")
 print(" ")
-yuueuuuuuuuuu=input ("Premi invio per passare all'ultimo indovinello...")
+yuueuuuuuuuuu = input("Premi invio per passare all'ultimo indovinello...")
 print(" ")
 print(" ")
-print(gino, "È l’unica via dove ancora nessuno ci ha mai passeggiato. Qual è? (scrivi solo le due parole senza articolo in minuscolo  ")
-if yuueuuuuuuuuu=="via lattea":
-  print(" ")
-  print(" ")
-  print(" TATARATATATARATA")
-  print(" ")
-  print(" TATARATATATARATA")
-  print(" ")
-  print("COMPLIMENTIIIII, HAI VINTO E PERCIO' HAI SALVATO ELY, ADESSO PER PREMIO TI FARO' GIOCARE CON LA TUA AMICA ELY PER QUANTO VORRAI")
-  print(" ")
-  print(" ")
-  ufufufufufufufufuf=input("Premi inio per salvare ELY e giocare con lei...")
+print(
+    gino,
+    "È l’unica via dove ancora nessuno ci ha mai passeggiato. Qual è? (scrivi solo le due parole senza articolo in minuscolo  "
+)
+if yuueuuuuuuuuu == "via lattea":
+    print(" ")
+    print(" ")
+    print(" TATARATATATARATA")
+    print(" ")
+    print(" TATARATATATARATA")
+    print(" ")
+    print(
+        "COMPLIMENTIIIII, HAI VINTO E PERCIO' HAI SALVATO ELY, ADESSO PER PREMIO TI FARO' GIOCARE CON LA TUA AMICA ELY PER QUANTO VORRAI"
+    )
+    print(" ")
+    print(" ")
+    ufufufufufufufufuf = input(
+        "Premi inio per salvare ELY e giocare con lei...")
 
 else:
     print(": RISPOSTA SBAGLIATA, quella corretta era 'via lattea' ")
-    print(" ") 
+    print(" ")
     print("            GAME OVER!!!!!!!       TI MANCAVA POCO!!!!!!!!!")
     print(" ")
     print(" ")
     print("Premi invio per uscire")
     print(" ")
     exit()
+
 
 class Field:
     def __init__(self, size):
@@ -2528,12 +2694,12 @@ class Field:
         self.add_entity()
 
     def add_entity(self):
-        
-        while(True):
-            i = randint(0, self.size-1)
-            j = randint(0, self.size-1)
+
+        while (True):
+            i = randint(0, self.size - 1)
+            j = randint(0, self.size - 1)
             entity = [i, j]
-            
+
             if entity not in self.snake_coords:
                 self.field[i][j] = 3
                 break
@@ -2541,14 +2707,13 @@ class Field:
     def _generate_field(self):
         self.field = [[0 for j in range(self.size)] for i in range(self.size)]
 
-    def _clear_field(self):        
-        self.field = [[j if j!= 1 and j!= 2 else 0 for j in i] for i in self.field]
-
+    def _clear_field(self):
+        self.field = [[j if j != 1 and j != 2 else 0 for j in i]
+                      for i in self.field]
 
     def render(self, screen):
         size = self.size
         self._clear_field()
-
 
         # Render snake on the field
         for i, j in self.snake_coords:
@@ -2561,7 +2726,7 @@ class Field:
         for i in range(size):
             row = ''
             for j in range(size):
-                row += self.icons[ self.field[i][j] ]
+                row += self.icons[self.field[i][j]]
 
             screen.addstr(i, 0, row)
 
@@ -2572,7 +2737,6 @@ class Field:
                     return [i, j]
 
         return [-1, -1]
-
 
     def is_snake_eat_entity(self):
         entity = self.get_entity_pos()
@@ -2587,7 +2751,7 @@ class Snake:
 
         # Init basic coords
         self.coords = [[0, 0], [0, 1], [0, 2], [0, 3]]
-        
+
     def set_direction(self, ch):
 
         # Check if wrong direction
@@ -2598,7 +2762,7 @@ class Snake:
         if ch == curses.KEY_UP and self.direction == curses.KEY_DOWN:
             return
         if ch == curses.KEY_DOWN and self.direction == curses.KEY_UP:
-            return 
+            return
 
         self.direction = ch
 
@@ -2610,13 +2774,13 @@ class Snake:
         tail = a[:]
 
         if a[0] < b[0]:
-            tail[0]-=1
+            tail[0] -= 1
         elif a[1] < b[1]:
-            tail[1]-=1
+            tail[1] -= 1
         elif a[0] > b[0]:
-            tail[0]+=1
+            tail[0] += 1
         elif a[1] > b[1]:
-            tail[1]+=1
+            tail[1] += 1
 
         tail = self._check_limit(tail)
         self.coords.insert(0, tail)
@@ -2628,13 +2792,13 @@ class Snake:
 
     def _check_limit(self, point):
         # Check field limit
-        if point[0] > self.field.size-1:
+        if point[0] > self.field.size - 1:
             point[0] = 0
         elif point[0] < 0:
-            point[0] = self.field.size-1
+            point[0] = self.field.size - 1
         elif point[1] < 0:
-            point[1] = self.field.size-1
-        elif point[1] > self.field.size-1:
+            point[1] = self.field.size - 1
+        elif point[1] > self.field.size - 1:
             point[1] = 0
 
         return point
@@ -2645,33 +2809,29 @@ class Snake:
 
         # Calc new head coords
         if self.direction == curses.KEY_UP:
-            head[0]-=1
+            head[0] -= 1
         elif self.direction == curses.KEY_DOWN:
-            head[0]+=1
+            head[0] += 1
         elif self.direction == curses.KEY_RIGHT:
-            head[1]+=1
+            head[1] += 1
         elif self.direction == curses.KEY_LEFT:
-            head[1]-=1
+            head[1] -= 1
 
         # Check field limit
         head = self._check_limit(head)
 
-        del(self.coords[0])
+        del (self.coords[0])
         self.coords.append(head)
         self.field.snake_coords = self.coords
 
         if not self.is_alive():
             sys.exit()
 
-
         # check if snake eat an entity
         if self.field.is_snake_eat_entity():
             curses.beep()
             self.level_up()
             self.field.add_entity()
-
-
-
 
     def set_field(self, field):
         self.field = field
@@ -2686,7 +2846,7 @@ def main(screen):
     snake = Snake("Joe")
     snake.set_field(field)
 
-    while(True):
+    while (True):
         # Get last pressed key
         ch = screen.getch()
         if ch != -1:
@@ -2695,666 +2855,13 @@ def main(screen):
 
         # Move snake
         snake.move()
-        
+
         # Render field
         field.render(screen)
         screen.refresh()
-        
+
         time.sleep(.4)
 
-if __name__=='__main__':
+
+if __name__ == '__main__':
     curses.wrapper(main)
-
-
-
-
-else:
-  print("Cosa hai detto, ma hai per caso rifiutato la mia offerta di raccontarti la storia... lo ritengo inaccettabile, adesso vado a uccidere subito ely e tu non potrai fare più niente per evitarlo")
-  print(" ")
-  print(" ")
-  print(" ")
-  print("Ely : ma perche gli hai detto di no, adesso mi ucciderà, sei proprio uno stupido!!!")
-  print(" ")
-  print(" ")
-  print(" ")
-  print("GAME OVER!!!!!")
-  exit()
-score = 0
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#millesima riga (non ci arriveremo mai)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

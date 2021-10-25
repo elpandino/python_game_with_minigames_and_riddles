@@ -12,6 +12,7 @@ freegames = "^2.3.2"
 board = "^1.0"
 playsound = "^1.3.0"
 keyboard = "^0.13.5"
+cell = "^0.0.3"
 
 [tool.poetry.dev-dependencies]
 
