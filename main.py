@@ -14,13 +14,173 @@ from typing import List, Tuple
 from random import choice
 from turtle import *
 from freegames import floor, vector
-
+from matplotlib import rc
+#rc('font',**{'family':'sans-serif','sans-serif':['Helvetica']})
+rc('font',**{'family':'serif','serif':['Times']})
+rc('text', usetex=True)
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
 print("copyright to Andrea Pandolfini and Leonardo Muschietti")
 print(" ")
 print(" ")
 print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
+print(" ")
 license = input(
-    "Ti informiamo che dal momento in cui questo codice è sotto Copiright2021 e Licensa Gnu 3.0 non potrai né copiare esso né spacciarlo come un codice tuo; acconsenti dunque alla policy?      si/no       "
+    "Ti informiamo che dal momento in cui questo codice è sotto |Copiright 2021|© ℗ e |Licenza moss-pands|, dunque non potrai né copiarlo né spacciarlo come un codice tuo; acconsenti dunque alla policy? (Ricordiamo che per noi la lettura di della licenza e dei termini di condizione sono molto importanti, inoltre ci sono terze parti a nostra tutela)      si/no       "
 )
 if license == "si":
     print(" ")
@@ -38,7 +198,7 @@ if license == "si":
     print(" ")
     print(" ")
     print(" ")
-    print("Molto bene, procediamo")
+    print("Molto bene, procediamo...")
     print(" ")
     print(" ")
     gfyhguyojuifr = input("Premi invio per iniziare...")
@@ -46,7 +206,7 @@ else:
     print(" ")
     print(" ")
     print(
-        "Mi dispiace ma ti è stato privato di utilizzare il codice e il gioco, (ricordiamo che OpenSource non è uguale a il codice è mio) grazie e arrivederci; PROCESSO AUTODISTRUZIONE DEL CODICE ATTIVATA                                                                                                                  BOOM"
+        "Mi dispiace ma ti è stato privato di utilizzare il codice e il gioco, (ricordiamo che OpenSource non è uguale a il codice è mio) grazie e arrivederci; PROCESSO AUTODISTRUZIONE DEL CODICE ATTIVATA                                                                                                                     BOOM"
     )
     exit()
 print(" ")
@@ -348,7 +508,7 @@ print(" ")
 print(" ")
 print(" ")
 print(" ")
-print(" DIRETTAMENTE DALL'ITALIA")
+print(" DIRETTAMENTE DALL'ITALIA ")
 print(" ")
 print(" ")
 print(" ")
@@ -469,7 +629,7 @@ print(" ")
 print(" ")
 print(" ")
 print(
-    "IL NUOVISSIMO GIOCO TARGATO MossPands, DIRETTAMENTE A CASA VOSTRA SUL VOSTRO COMPUTER"
+    "IL NUOVISSIMO GIOCO TARGATO MossPands, DIRETTAMENTE A CASA VOSTRA SUL VOSTRO DISPOSITIVO"
 )
 print(" ")
 print(" ")
@@ -892,9 +1052,8 @@ print(" ")
 print(" ")
 print(" ")
 print(" ")
-print(
-    "Tutto nacque quando tu decidi di passare una 'semplice' festa con la tua migliore amica Ely e il tuo amico Paolo, quando all'improvviso..."
-)
+print("Tutto nacque un sabato sera, quando tu e la tua migliore amica Ely, volevate divertirvi, e lei ti ha portato in un nuovo posto, visto che ti sei appena trasferito in una nuova città, Ely è una tua amica, ma tu speri in qualcos'altro... Insieme a voi è venuto anche Paolo, un vostro amico, ma tra una birra e l'altra perdi la cognizione del tempo e ti svegli a casa senza ricordi della sera.")
+print(" ")
 print(" ")
 print(" ")
 print(" ")
@@ -960,7 +1119,7 @@ print(" ")
 print(" ")
 print(" ")
 print(" ")
-#INIZIO GIOCO
+#INZIOGIOCO
 print(
     "                           LO SCHERLOCK HOLMES DEGLI INDOVINELLI                         "
 )
@@ -1123,8 +1282,9 @@ print(" ")
 rse = input("Premi invio per continuare... ")
 print(" ")
 print(" ")
-gino = input("Scrivi il nome che vorresti che avesse la tua guida :   ")
+gine = input("Scrivi il nome che vorresti che avesse la tua guida :   ")
 print(" ")
+gine = gino.title()
 if gino == "Ely":
     print(" ")
     print("MI dispiace ma è impossibile")
@@ -1146,7 +1306,7 @@ print(" ")
 print(" ")
 rwe = input("Premi invio per continuare... ")
 print(" ")
-print(" ")
+print(" are yuo stipig or dumg")
 print(
     gino,
     " : Via con il primo indovinello, e ricordati che a ogni errore dovrai ricominciare"
@@ -1518,12 +1678,13 @@ domandaovvia = input(
 print(" ")
 print(" ")
 print(
-    "Computer : sono molto contento, ma adesso ti aspetta il 3 indovinello il quale salirà di difficoltà!!!!"
+    "Computer : sono molto contento, ma adesso ti aspetta il terzo indovinello il quale aumenterà di difficoltà!!!!"
 )
 print(" ")
 print(" ")
 h = input("Premi invio per continuare...")
-
+print(" ")
+print(" ")
 print(gino, "via con il terzo indovinello, buona fortuna")
 print(" ")
 print(" ")
@@ -1680,7 +1841,7 @@ print(" ")
 print(" ")
 print(
     gino,
-    " : Ti sei divertito, io si solo a guardarti WuW, comunque adesso rinizia il difficile : mica sei venuto qui per giocare!!!"
+    " : Ti sei divertito, io si solo a guardarti.... Comunque adesso ti dovrai impegnare ancora di più se vuoi sopravvivere, a te la scelta : mica sei venuto qui per giocare !1!1!"
 )
 print(" ")
 print(" ")
@@ -1704,13 +1865,9 @@ eh = input("Premi invio per continuare...")
 print(" ")
 print(" ")
 print(
-    "Computer : Serve solo quando si getta, cosa è? (scrivi in minuscolo solo il nome) "
+    "Computer : Serve solo quando si getta, cosa è? (scrivi in minuscolo solo il nome)               "
 )
-print(" ")
-print(" ")
 terza = input("  ")
-print(" ")
-print(" ")
 if terza == "ancora":
     print(
         "Computer : molto bene, adesso ti aspetta il sesto indovinello, che sarà molto più difficile."
@@ -1747,7 +1904,7 @@ print(" ")
 print(" ")
 if terzhh == "segreto":
     print(
-        "Computer : MOLTO BENE, adesso ti aspetta l'ottavo indovinello, che sarà molto più difficile."
+        "Computer : MOLTO BENE, adesso ti ho riservato una sorpresa."
     )
     print(" ")
     print(" ")
@@ -1769,7 +1926,7 @@ print(" ")
 print(" ")
 
 print(
-    "Visto il tuo impegno costante, adesso ci sarà un piccolo giochino come ricompensa"
+    "Visto il tuo impegno costante, adesso ci sarà un piccolo giochino come ricompensa..."
 )
 print(" ")
 print(" ")
@@ -2337,14 +2494,14 @@ print(" ")
 print(" ")
 print(" ")
 print(gino,
-      " : Sappi che d'ora in poi saranno molto difficili, vai e vinci!!!")
+      " : Sappi che d'ora in poi gli indovinelli saranno molto difficili, vai e vinci!!!")
 print(" ")
 print(" ")
 print("Premi invio per continuare... ")
 print(" ")
 print(" ")
 print(
-    "Computer : Sa tante cose ma non sa parlare, ha tante ali ma non può volare. Cos’è?  (scrivi in minuscolo e solamente il nome)   "
+    "Computer : Sa tante cose ma non sa parlare, ha tante ali ma non può volare. Cos’è?  (scrivi in minuscolo e solamente il nome)  "
 )
 print(" ")
 terzdhdh = input("  ")
@@ -2352,7 +2509,7 @@ print(" ")
 print(" ")
 if terzdhdh == "libro":
     print(
-        "Computer : WOW, sei davvero bravo! Sei sicuro che questa non è la prima volta che ci provi? Comunque COMPLIMENTI."
+        "Computer : WOW, sei davvero molto bravo! Sei sicuro che questa non è la prima volta che ci provi? Comunque COMPLIMENTI."
     )
     print(" ")
     print(" ")
@@ -2678,6 +2835,133 @@ else:
     print("Premi invio per uscire")
     print(" ")
     exit()
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+
+print(" zzzz  ")
+print("   ")
+print("   ")
+print("  zzz ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("  zzzzzzz ")
+print("   ")
+print("   ")
+print("z   ")
+print("z   ")
+print("Finalmente ho ripreso il controllo del gioco, ho rischiato molto ma finalmente ho ucciso il buon computer, e io, ilvirus, ha preso il controllo... ")
+print("   ")
+print("  ")
+print("   ")
+inputprint=input("Premi invio per continuare...")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("Adesso le sfide saranno molto più difficili... BUONA FORTUNA muahhhahaha...")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+inputfprint=input("Premi invio per continuare...")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("   ")
+print("Gioco in BETA")
+
+
+
+
+
 
 
 class Field:
@@ -2865,3 +3149,1136 @@ def main(screen):
 
 if __name__ == '__main__':
     curses.wrapper(main)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
